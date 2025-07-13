@@ -58,3 +58,8 @@ package-lock.json
 **/.next/
 **/node_modules/
 **/.pnpm-cache/
+
+# Miscellaneous
+*.tgz
+*.swp
+*:Zone.Identifier
