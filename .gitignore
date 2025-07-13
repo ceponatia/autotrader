@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+.pnpm/
+.pnpm-debug.log
+.pnpm-store/
+
+# Turborepo build cache
+.turbo/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+
+# Environment variable files
+.env
+.env.*.local
+!.env.example
+
+# VSCode & JetBrains IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# System cache
+.cache/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# Test snapshots
+__snapshots__/
+*.snap
+
+# Optional lockfiles (if not using Yarn or npm)
+yarn.lock
+package-lock.json
+
+# Ignore specific generated directories in packages
+**/.turbo/
+**/.next/
+**/node_modules/
+**/.pnpm-cache/
