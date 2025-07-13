@@ -23,8 +23,8 @@ out/
 *.tsbuildinfo
 
 # Environment variable files
-.env
-.env.*.local
+.env.*
+.env..local
 !.env.example
 
 # VSCode & JetBrains IDEs
